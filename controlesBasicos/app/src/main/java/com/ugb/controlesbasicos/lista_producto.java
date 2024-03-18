@@ -58,7 +58,7 @@ public class lista_producto extends AppCompatActivity {
 
         AdapterView.AdapterContextMenuInfo info =(AdapterView.AdapterContextMenuInfo)menuInfo;
         cProducto.moveToPosition(info.position);
-        menu.setHeaderTitle(cProducto.getString(1));//1 es el nombre del Producto
+        menu.setHeaderTitle(cProducto.getString(3));//1 es el nombre del Producto
     }
     @Override
     public boolean onContextItemSelected(@NonNull MenuItem item) {
